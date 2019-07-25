@@ -1,0 +1,26 @@
+.dashboard {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+}
+h2 {
+text-align: center;
+width: 100%;
+margin-top: 20px;
+}
+.details {
+    text-align: center;
+    margin-top: 20px;
+}
+.form-details {
+    justify-content: center;
+}
+.login {
+      width: 30%;
+      margin-left: auto;
+      margin-top: 20px;
+      margin-right: auto;
+}
+

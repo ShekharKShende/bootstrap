@@ -97,7 +97,7 @@ class Details extends React.Component {
         return (
 <Container className="details">
     <Row>
-        <h2>{candiate ? 'Edit Details' : 'ADD Details'}</h2>
+        <h2>{candiate.email ? 'Edit Details' : 'ADD Details'}</h2>
     </Row>
     < Row className = "form-details" >
         <Form  noValidate validated={this.state.validated} onSubmit={this.handleSubmit}  style={{width:'100%'}}>
